@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter App | VanillaJS</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <h1 class="title">Temperature Converter</h1>
+    <section class="temp-container">
+      <label for="celsius">Celsius</label>
+      <input type="number" name="celsius" id="celsius" value="0.00" />
 
-<body>
-  <script src="js/script.js"></script>
-</body>
+      <label for="fahrenheit">Fahrenheit</label>
+      <input type="number" name="fahrenheit" id="fahrenheit" value="32.00" />
 
+      <label for="kelvin">Kelvin</label>
+      <input type="number" name="kelvin" id="kelvin" value="273.15" />
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
