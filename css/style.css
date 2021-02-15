@@ -1,3 +1,7 @@
+/**
+ * Reset & Styles
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +56,26 @@ label {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+/**
+ * Hide Input Arrows
+ */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/**
+ * Mobile specific styles
+ */
 
 @media (max-width: 575px) {
   h1 {
